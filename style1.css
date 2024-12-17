@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.judul {
+    font-family:'Lucida Console', 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 50px; /* Bold */
+    text-transform: uppercase; /* Huruf besar semua */
+    letter-spacing: 2px; /* Jarak antar huruf */
+    color: #f0bcd4; /* Warna gelap untuk kesan tegas */
+    text-shadow: 2px 2px 4px rgba(127, 120, 124, 0.5); /* Efek bayangan */
+}
+.judul:hover {
+    transform: scale(1.1);
+}
+body {
+    font-family:'Lucida Console', 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, #ff5fb2, #b72866);
+    color: #510132;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff5fb2, #b72866);
+    background-image: url('b.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    font-family: "Garamond", Times, serif;
+    background-image: url('b2.jpg');
+    
+    
+}
+
+header {
+    background-image: url('bgj.jpg');
+    color: white;
+    padding: 20px ;
+    text-align: center;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd1e6;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #540325;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input, select, button, label {
+    width: 80%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #520526;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #4e0324;
+}
+
+a {
+    color: #3d021c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color:#3d041d ;
+}
+
+.dashboard-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.info-box {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+}
+
+.info-box h3 {
+    color: #41041e;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 1.2rem;
+    color: #333;
+}
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+button {
+    background-color: #4a0212;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #a0457d;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+img {
+    display: block;
+    max-width: 150px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.edit-btn { background-color: #2c043b; }
+.delete-btn { background-color: #440625; }
+a { color: white; text-decoration: none; }
+.action-btns { display: flex; gap: 5px; justify-content: center; }
